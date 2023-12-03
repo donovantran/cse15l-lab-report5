@@ -11,3 +11,12 @@ I believe that the post is correct in the fact that the failure inducing input w
 ![IMAGE](TApost.png)
 
 The TA reponse refers to the code in `testReverseInPlace1`, which had a starting variable at 1. This means that when it is traversing the int array, it would start at index 1 instead of index 0. 
+
+3. This is the terminal output after the student implemented the change the TA suggested. In this situation, the TA suggested that the student change the intial starting ponit of variable `i` in the for loop.
+![IMAGE](sucess.png)
+
+The test ran correctly!
+
+4. In terms of file structure, as long as `ArrayExamples.java`, `ArrayTest.java`, and `test.sh` are witin the same directory, the code should be able to run. File contents should be pretty straight forward as well. `ArrayExamples.java` should contain the code to reverse the arrays and the code to run `ArrayTests.java`. `ArrayTest.java` contents contains the JUnit tests. `test.sh` has the bash script for complining and running the code. The full command line the trigger the bug was `bash test.sh`. This is because the bug lie within `ArrayExamples.java` and not a command within the terminal. The edit to the code that fixed the bug was simply changing the for loop's variable intial starting value from 1 to 0.
+
+
