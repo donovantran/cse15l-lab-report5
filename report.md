@@ -1,5 +1,9 @@
 # Lab Report 5
 ---
+
+Part 1
+---
+
 For Lab Report 5, I used the ArrayExamples.java and ArrayTests.java files to reproduce the intereaction between student and TA.
 
 1. This is the intial post that Donovan made to EdStem about his `ArrayTests.java` file not passing all tests.
@@ -19,4 +23,11 @@ The test ran correctly!
 
 4. In terms of file structure, as long as `ArrayExamples.java`, `ArrayTest.java`, and `test.sh` are witin the same directory, the code should be able to run. File contents should be pretty straight forward as well. `ArrayExamples.java` should contain the code to reverse the arrays and the code to run `ArrayTests.java`. `ArrayTest.java` contents contains the JUnit tests. `test.sh` has the bash script for complining and running the code. The full command line the trigger the bug was `bash test.sh`. This is because the bug lie within `ArrayExamples.java` and not a command within the terminal. The edit to the code that fixed the bug was simply changing the for loop's variable intial starting value from 1 to 0.
 
+Here are some extra screen shots. 
+![IMAGE](failure.png)
+![IMAGE](bugcode.png)
+
+Part 2
+---
+Coming in as a transfer student, I have learned a lot from this class. From understanding just how to use a terminals, paths, using VIM, and GitHub, there are many things that I took away from this class. One of the biggest skill I think I learned was being able to code and then use my terminal to work on the code remotely. It really broadened my understanding of how to work on code remotely. VIM was also really fun to use, I think I will defintely use VIM a decent amount when working remotely as well.
 
